@@ -1,6 +1,7 @@
 # WebTigerJython Adaption for Cloud
+## This Fork adds Darkmode and possibly some small tweaks, mainly improving design
 
-[wtj.temperli.io](https://wtj.temperli.io)
+[wtj.fireplanet.net](https://wtj.fireplanet.net)
 
 ## Cloud-Adaption
 
