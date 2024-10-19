@@ -326,7 +326,8 @@
             </label>
         </div>
     `;
-        document.body.insertAdjacentHTML('afterbegin', toggleHtml);
+        document.getElementById('WTP').parentElement.insertAdjacentHTML('beforeend', toggleHtml);
+
 
         // Get the toggle element
         const darkModeToggle = document.getElementById('dm-toggle');
@@ -417,7 +418,7 @@
 
     // Initialize dark mode when DOM is loaded
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {initDarkMode();});
+        document.addEventListener('DOMContentLoaded', initDarkMode);
     } else {
         initDarkMode();
     }
