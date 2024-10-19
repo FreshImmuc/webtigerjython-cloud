@@ -1,0 +1,15 @@
+# npm & node
+/node_modules
+
+# lumen
+/vendor
+/database/database.sqlite
+
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+
+# phpstorm
+.idea
+.DS_Store

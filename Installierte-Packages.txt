@@ -1,0 +1,6 @@
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php8.2-fpm
+
+https://www.digitalocean.com/community/questions/how-to-install-composer-2#:~:text=MELVIN%20GILBERT,December%207%2C%202023
+
++ PHP extensions
